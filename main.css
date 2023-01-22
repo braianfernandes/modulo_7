@@ -1,0 +1,33 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header {
+    background-color: black;
+    color: black;
+}
+
+.container{
+    max-width: 380px;
+    width: 100%;
+    padding: 30px;
+    margin: 10px auto;
+    align-items: flex-start;
+}
+
+form button {
+    background-color: rgb(199, 199, 238);
+    cursor: pointer;
+}
+
+section p {
+    margin-bottom: 6px;
+}
+
+form input,
+form button {
+    display: block;
+    width: 320px;
+}
