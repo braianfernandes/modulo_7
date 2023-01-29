@@ -5,10 +5,10 @@ const campoB = document.getElementById('campo-B');
 form.addEventListener('submit', function(e) {
     e.preventDefault();
 
-const campoA = document.getElementById("campo-A").value;
-const campoB = document.getElementById("campo-B").value;
+let numA = document.getElementById("campo-A").valueAsNumber;
+let numB = document.getElementById("campo-B").valueAsNumber;
 
-    if (!campoA<campoB) {
+    if (!(numA<numB)) {
         alert("B não é maior que A")
     } else {
         alert("Tudo certo")
